@@ -1,0 +1,87 @@
+[31m✖[39m [90m｢wdm｣[39m: Hash: [1m02868d8fcced5cbf93d8[39m[22m
+Version: webpack [1m4.35.2[39m[22m
+Time: [1m6690[39m[22[34mℹ[39m [90m｢wdm｣[39m: Failed to compile.
+::1 - - [14/Jun/2023:06:30:16 +0000] "GET / HTTP/1.1" 304 - "-" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36"
+1m[32m[39m[22mmain
+Entrypoint [1mmain[39m[22m = [1m[32mbundle.js[39m[22m
+  [1] [1m./node_modules/react/index.js[39m[22m 190 bytes {[1m[33m0[39m[22m}[1m[32m [built][39m[22m
+  [5] [1m./node_modules/react-router-dom/es/index.js + 29 modules[39m[22m 76.8 KiB {[1m[33m0[39m[22m}[1m[32m [built][39m[22m
+      | [1m./node_modules/react-router-dom/es/index.js[39m[22m 1010 bytes[1m[32m [built][39m[22m
+      | [1m./node_modules/react-router-dom/es/Router.js[39m[22m 131 bytes[1m[32m [built][39m[22m
+      | [1m./node_modules/react-router-dom/es/BrowserRouter.js[39m[22m 2.36 KiB[1m[32m [built][39m[22m
+      | [1m./node_modules/react-router-dom/es/HashRouter.js[39m[22m 2.33 KiB[1m[32m [built][39m[22m
+      | [1m./node_modules/react-router-dom/es/Link.js[39m[22m 4.19 KiB[1m[32m [built][39m[22m
+      | [1m./node_modules/react-router-dom/es/MemoryRouter.js[39m[22m 149 bytes[1m[32m [built][39m[22m
+      | [1m./node_modules/react-router-dom/es/Route.js[39m[22m 128 bytes[1m[32m [built][39m[22m
+      | [1m./node_modules/react-router-dom/es/NavLink.js[39m[22m 2.83 KiB[1m[32m [built][39m[22m
+      | [1m./node_modules/react-router-dom/es/Prompt.js[39m[22m 131 bytes[1m[32m [built][39m[22m
+      | [1m./node_modules/react-router-dom/es/Redirect.js[39m[22m 137 bytes[1m[32m [built][39m[22m
+      | [1m./node_modules/react-router-dom/es/StaticRouter.js[39m[22m 149 bytes[1m[32m [built][39m[22m
+      | [1m./node_modules/react-router-dom/es/Switch.js[39m[22m 131 bytes[1m[32m [built][39m[22m
+      | [1m./node_modules/react-router-dom/es/generatePath.js[39m[22m 149 bytes[1m[32m [built][39m[22m
+      | [1m./node_modules/react-router-dom/es/matchPath.js[39m[22m 140 bytes[1m[32m [built][39m[22m
+      | [1m./node_modules/react-router-dom/es/withRouter.js[39m[22m 143 bytes[1m[32m [built][39m[22m
+      |     + 15 hidden modules
+  [7] [1m./src/components/Auth.js[39m[22m 6.88 KiB {[1m[33m0[39m[22m}[1m[32m [built][39m[22m
+ [12] [1m./node_modules/react-dom/index.js[39m[22m 1.33 KiB {[1m[33m0[39m[22m}[1m[32m [built][39m[22m
+ [19] [1m./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/lib/loader.js!./src/assets/stylesheets/base.scss[39m[22m 1.07 KiB {[1m[33m0[39m[22m}[1m[32m [built][39m[22m[1m[31m [failed][39m[22m[1m[31m [1 error][39m[22m
+ [25] [1m./node_modules/style-loader/lib/addStyles.js[39m[22m 10.2 KiB {[1m[33m0[39m[22m}[1m[32m [built][39m[22m
+ [27] [1m./src/components/Modules/PositionsList.jsx[39m[22m 16.4 KiB {[1m[33m0[39m[22m}[1m[32m [built][39m[22m
+ [29] [1m./node_modules/process/browser.js[39m[22m 5.29 KiB {[1m[33m0[39m[22m}[1m[32m [built][39m[22m
+ [37] [1mmulti ./src/index[39m[22m 28 bytes {[1m[33m0[39m[22m}[1m[32m [built][39m[22m
+ [38] [1m./src/index.js[39m[22m 1.18 KiB {[1m[33m0[39m[22m}[1m[32m [built][39m[22m
+ [39] [1m./src/assets/stylesheets/base.scss[39m[22m 1.22 KiB {[1m[33m0[39m[22m}[1m[32m [built][39m[22m
+ [41] [1m./node_modules/react/cjs/react.production.min.js[39m[22m 6.67 KiB {[1m[33m0[39m[22m}[1m[32m [built][39m[22m
+ [42] [1m./node_modules/react-dom/cjs/react-dom.production.min.js[39m[22m 106 KiB {[1m[33m0[39m[22m}[1m[32m [built][39m[22m
+ [48] [1m./src/components/App.js[39m[22m 9.69 KiB {[1m[33m0[39m[22m}[1m[32m [built][39m[22m
+[100] [1m./src/serviceWorker.js[39m[22m 4.75 KiB {[1m[33m0[39m[22m}[1m[32m [built][39m[22m
+    + 88 hidden modules
+
+[1m[31mERROR in ./src/assets/stylesheets/base.scss (./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/lib/loader.js!./src/assets/stylesheets/base.scss)
+Module build failed (from ./node_modules/sass-loader/lib/loader.js):
+Error: Node Sass does not yet support your current environment: OS X 64-bit with Unsupported runtime (93)
+For more information on which environments are supported please see:
+https://github.com/sass/node-sass/releases/tag/v4.12.0
+    at module.exports (/Users/mons/Development/NodeJS/recruit/recruit-front/node_modules/node-sass/lib/binding.js:13:13)
+    at Object.<anonymous> (/Users/mons/Development/NodeJS/recruit/recruit-front/node_modules/node-sass/lib/index.js:14:35)
+    at Module._compile (node:internal/modules/cjs/loader:1101:14)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1153:10)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+    at require (node:internal/modules/cjs/helpers:102:18)
+    at Object.sassLoader (/Users/mons/Development/NodeJS/recruit/recruit-front/node_modules/sass-loader/lib/loader.js:46:72)
+ @ ./src/assets/stylesheets/base.scss 2:14-131 21:1-42:3 22:19-136
+ @ ./src/index.js
+ @ multi ./src/index[39m[22m
+
+[1m[31mERROR in ./node_modules/react-datepicker/dist/react-datepicker.css (./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/lib/loader.js!./node_modules/react-datepicker/dist/react-datepicker.css)
+Module build failed (from ./node_modules/sass-loader/lib/loader.js):
+Error: Node Sass does not yet support your current environment: OS X 64-bit with Unsupported runtime (93)
+For more information on which environments are supported please see:
+https://github.com/sass/node-sass/releases/tag/v4.12.0
+    at module.exports (/Users/mons/Development/NodeJS/recruit/recruit-front/node_modules/node-sass/lib/binding.js:13:13)
+    at Object.<anonymous> (/Users/mons/Development/NodeJS/recruit/recruit-front/node_modules/node-sass/lib/index.js:14:35)
+    at Module._compile (node:internal/modules/cjs/loader:1101:14)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1153:10)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+    at require (node:internal/modules/cjs/helpers:102:18)
+    at Object.sassLoader (/Users/mons/Development/NodeJS/recruit/recruit-front/node_modules/sass-loader/lib/loader.js:46:72)
+ @ ./node_modules/react-datepicker/dist/react-datepicker.css 2:14-110 21:1-42:3 22:19-115
+ @ ./src/components/Modules/UpsertPosition.jsx
+ @ ./src/components/App.js
+ @ ./src/index.js
+ @ multi ./src/index[39m[22m
+/Users/mons/Development/NodeJS/recruit/recruit-front/node_modules/chokidar/lib/fsevents-handler.js:28
+  return (new fsevents(path)).on('fsevent', callback).start();
+          ^
+
+TypeError: fsevents is not a constructor
+    at createFSEventsInstance (/Users/mons/Development/NodeJS/recruit/recruit-front/node_modules/chokidar/lib/fsevents-handler.js:28:11)
+    at setFSEventsListener (/Users/mons/Development/NodeJS/recruit/recruit-front/node_modules/chokidar/lib/fsevents-handler.js:82:16)
+    at FSWatcher.FsEventsHandler._watchWithFsEvents (/Users/mons/Development/NodeJS/recruit/recruit-front/node_modules/chokidar/lib/fsevents-handler.js:252:16)
+    at FSWatcher.<anonymous> (/Users/mons/Development/NodeJS/recruit/recruit-front/node_modules/chokidar/lib/fsevents-handler.js:386:25)
+    at LOOP (node:fs:2607:14)
+    at processTicksAndRejections (node:internal/process/task_queues:78:11)
